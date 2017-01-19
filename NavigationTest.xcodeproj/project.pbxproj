@@ -14,6 +14,7 @@
 		F1456C2B1E30AC3E0048F630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1456C2A1E30AC3E0048F630 /* Assets.xcassets */; };
 		F1456C2E1E30AC3E0048F630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1456C2C1E30AC3E0048F630 /* LaunchScreen.storyboard */; };
 		F1456C391E30AC3E0048F630 /* NavigationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1456C381E30AC3E0048F630 /* NavigationTestTests.swift */; };
+		F1456C441E30AFC50048F630 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1456C431E30AFC50048F630 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		F1456C341E30AC3E0048F630 /* NavigationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1456C381E30AC3E0048F630 /* NavigationTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTestTests.swift; sourceTree = "<group>"; };
 		F1456C3A1E30AC3E0048F630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1456C431E30AFC50048F630 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				F1456C2A1E30AC3E0048F630 /* Assets.xcassets */,
 				F1456C2C1E30AC3E0048F630 /* LaunchScreen.storyboard */,
 				F1456C2F1E30AC3E0048F630 /* Info.plist */,
+				F1456C431E30AFC50048F630 /* LoginViewController.swift */,
 			);
 			path = NavigationTest;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1456C441E30AFC50048F630 /* LoginViewController.swift in Sources */,
 				F1456C261E30AC3E0048F630 /* SecondViewController.swift in Sources */,
 				F1456C221E30AC3E0048F630 /* AppDelegate.swift in Sources */,
 				F1456C241E30AC3E0048F630 /* FirstViewController.swift in Sources */,
